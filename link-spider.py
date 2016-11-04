@@ -5,10 +5,9 @@ from urllib.parse import urlparse
 '''
 How to run this scriptp
 virtualenv -p python3 env
-cd env
-source bin/activate
-pip install requests urlparse3 urllib2 bs4
-pip install
+source env/bin/activate
+pip install --upgrade pip
+pip install requests urlparse3 urllib5 bs4
 '''
 ##Global variables
 master = []
