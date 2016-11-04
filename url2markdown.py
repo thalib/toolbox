@@ -1,13 +1,13 @@
 '''
-A simple script of mine to scrap a website and build all the webpage/url of that site.
+A simple script of mine to pull the webpage/url save to markdown file
 
 How to run this script
 virtualenv -p python3 env
 source env/bin/activate
 pip install --upgrade pip
-pip install requests urlparse3 urllib5 bs4
+pip install requests urlparse3 urllib5 bs4 html2text
 
-python link-spider.py -l http://google.com
+python pul-pagepy -l http://example.com/url.html
 '''
 
 import requests
