@@ -84,7 +84,7 @@ if (soup.title):
     fd.write(soup.title.string)
     fd.write("\n")
 
-fd.write("URL: ")
+fd.write("via: ")
 fd.write(webURL)
 fd.write("\n")
 fd.write(data)
