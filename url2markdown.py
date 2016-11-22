@@ -28,6 +28,10 @@ def getURL(url, verifySSL):
     req = requests.get(url, verify=verifySSL).content
     return req
 
+def getBaseURL(url):
+	temp = urlparse(url)
+	return temp.netloc
+
 def run_command(cmd):
 	print (cmd)
 	ret = os.system(cmd)
@@ -40,6 +44,7 @@ def run_command(cmd):
 ############
 webURL = 0
 verifySSL = 0
+BaseURL = 0
 
 try:
     opts, args = getopt.getopt(sys.argv[1:], "nhl:")
@@ -84,8 +89,10 @@ if (soup.title):
     fd.write(soup.title.string)
     fd.write("\n")
 
-fd.write("URL: ")
-fd.write(webURL)
+baseURL = getBaseURL(webURL)
+
+viaURL = 'via [' + baseURL + '](' + webURL + ')'
+fd.write(viaURL)
 fd.write("\n")
 fd.write(data)
 fd.write("\n")
