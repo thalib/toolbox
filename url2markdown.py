@@ -1,3 +1,5 @@
+#!env/bin/python
+
 '''
 A simple script of mine to pull the webpage/url save to markdown file
 
@@ -17,6 +19,7 @@ import html2text
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 import urllib.request
+import re
 
 def help():
     print (sys.argv[0] + ' <option> -l <url>')
@@ -80,6 +83,15 @@ except Exception as inst:
     html = open("temp.html").read()
 
 soup = BeautifulSoup(html, 'html.parser')
+
+# replace with `soup.findAll` if you are using BeautifulSoup3
+# Ref: http://stackoverflow.com/questions/32063985/deleting-a-div-with-a-particlular-class-using-beautifulsoup
+#for div in soup.find_all("div", {'class':'sidebar'}):
+#    div.decompose()
+
+for div in soup.find_all("div", {'id':'header-content'}):
+    div.decompose()
+
 data = html2text.html2text(soup.prettify())
 
 fd = open('post.md', 'w')
