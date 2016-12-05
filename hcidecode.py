@@ -1,5 +1,9 @@
+#!env/bin/python
+'''
+	Usage example: ./hcidecode.py 0xFE10, 0x01, 120, 511, 0xFF
+'''
 import sys
-print sys.argv[1:]
+
 
 temp =  sys.argv[1]
 ogf = int(temp.replace(",", ""), 0) >> 10
