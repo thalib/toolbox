@@ -1,13 +1,12 @@
-#!env/bin/python
+#!env3/bin/python
 
 '''
 A simple script of mine to pull the webpage/url save to markdown file
 
 How to run this script
-virtualenv -p python3 env
-source env/bin/activate
-pip install --upgrade pip
-pip install requests urlparse3 urllib5 bs4 html2text
+virtualenv -p python3 env3
+source env3/bin/activate
+pip install -r requirements.txt
 
 python pul-pagepy -l http://example.com/url.html
 '''
