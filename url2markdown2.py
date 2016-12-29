@@ -16,7 +16,8 @@ python pul-pagepy -l http://example.com/url.html
 
 import requests
 import getopt
-import sys, os
+import sys
+import os
 import html2text
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
@@ -24,14 +25,16 @@ import urllib.request
 import re
 import newspaper
 
+
 def help():
     print (sys.argv[0] + ' <url>')
     sys.exit()
 
+
 def getBaseURL(url):
-	temp = urlparse(url)
-	return temp.netloc
-	
+    temp = urlparse(url)
+    return temp.netloc
+
 ############
 webURL = 0
 verifySSL = 0
@@ -45,19 +48,20 @@ except getopt.GetoptError:
 
 for opt, arg in opts:
     if opt == '-h':
-        help()      
+        help()
     else:
-    	assert False, "unhandled option"
+        assert False, "unhandled option"
 
 webURL = args[0]
 
 if(0 == webURL):
-	help()
+    help()
 
-print ('Fetching: ' + webURL);
+print ('Fetching: ' + webURL)
 
 try:
-    article = newspaper.Article(webURL, fetch_images=False, keep_article_html=True)
+    article = newspaper.Article(
+        webURL, fetch_images=False, keep_article_html=True)
 except:
     print("Error when getting article info")
     sys.exit(2)
@@ -67,7 +71,7 @@ try:
 except:
     print("Failed when downloading")
     sys.exit(2)
-    
+
 try:
     article.parse()
 except:
@@ -75,23 +79,36 @@ except:
     sys.exit(2)
 
 
-#soup = BeautifulSoup(html, 'html.parser')
+#soup = BeautifulSoup(article.article_html, 'html.parser')
+#soup.find('div', id="header").decompose()
+
 data = html2text.html2text(article.article_html)
 
 # print(article.text)
 # print(article.title)
 
-print ('Writing to post.md');
+
+print ('Writing to post.md')
 
 fd = open('post.md', 'w')
 
 if (article.title):
-    fd.write("Title: ")
     fd.write(article.title)
     fd.write("\n\n")
 
 baseURL = getBaseURL(webURL)
 viaURL = 'via [' + baseURL + '](' + webURL + ')'
+
+if (article.movies):
+    fd.write("Video")
+    fd.write(",".join([str(x) for x in article.movies]))
+    fd.write("\n\n")
+
+if (article.top_image):
+    fd.write("![%s](", article.title)
+    fd.write(article.top_image)
+    fd.write(")\n\n")
+
 
 fd.write(data)
 fd.write("\n")
@@ -101,4 +118,3 @@ fd.write("\n")
 
 
 fd.close()
-
