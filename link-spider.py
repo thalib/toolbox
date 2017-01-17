@@ -1,3 +1,5 @@
+#!env3/bin/python
+
 '''
 A simple script of mine to scrap a website and build all the webpage/url of that site.
 

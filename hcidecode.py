@@ -1,4 +1,4 @@
-#!env/bin/python
+#!env3/bin/python
 '''
 	Usage example: ./hcidecode.py 0xFE10, 0x01, 120, 511, 0xFF
 '''
