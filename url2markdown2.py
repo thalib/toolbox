@@ -100,7 +100,7 @@ baseURL = getBaseURL(webURL)
 viaURL = 'via [' + baseURL + '](' + webURL + ')'
 
 if (article.movies):
-    fd.write("Video")
+    fd.write("Video ")
     fd.write(",".join([str(x) for x in article.movies]))
     fd.write("\n\n")
 
