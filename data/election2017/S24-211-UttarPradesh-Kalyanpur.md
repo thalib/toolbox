@@ -1,0 +1,13 @@
+ 
+|UttarPradesh-Kalyanpur|
+|Candidate|Party|Votes|
+|NILIMAKATIYAR|BharatiyaJanataParty|86620|
+|SATISHKUMARNIGAM|SamajwadiParty|63278|
+|DEEPUKUMAR|BahujanSamajParty|25706|
+|SHRIKULDEEPSINGHCHAUHAN|Shivsena|367|
+|SHRIMATIVIJAYLAXMI|BhartiyaInsanParty|337|
+|DHEERAJKUGUPTA|Independent|253|
+|RAMPRATAP|ProutistBloc,India|168|
+|SHRIDEEPAK|AadhiAabadiParty|131|
+|SHRIDHARMDEV|SOCIALISTUNITYCENTREOFINDIA(COMMUNIST)|131|
+|NoneoftheAbove|NoneoftheAbove|921|

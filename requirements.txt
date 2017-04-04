@@ -7,7 +7,6 @@ idna==2.1
 jieba3k==0.35.1
 lxml==3.7.0
 newspaper3k==0.1.7
-nltk==3.2.1
 Pillow==3.4.2
 python-dateutil==2.6.0
 PyYAML==3.12

@@ -1,0 +1,17 @@
+ 
+|UttarPradesh-Rudhauli|
+|Candidate|Party|Votes|
+|SANJAYPRATAPJAISWAL|BharatiyaJanataParty|90228|
+|RAJENDRAPRASADCHAUDHARY|BahujanSamajParty|68423|
+|SAYEEDAHMADKHAN|IndianNationalCongress|51743|
+|SURYAMANI|Independent|1705|
+|KANTHRAMPRAJAPATI|BhartiyaSarvjanParty|1561|
+|PRAMODKUMARSINGHPRABHATBHAIYA|RashtriyaLokDal|1452|
+|DHRUVCHANDRA|Independent|1188|
+|JAIPRAKASHUPADHYAY|Independent|1013|
+|RAJEEVKUMARPANDEY|PeaceParty|741|
+|VINODKUMARCHAUDHARY|ShoshitSamajDal|693|
+|SURENDRAKUMARYADAV|BahujanMuktiParty|641|
+|RAJKUMARVERMA|ProutistBloc,India|568|
+|BRAHMANANDVISHWAKARMA|MostBackwardClassesOfIndia|434|
+|NoneoftheAbove|NoneoftheAbove|2221|

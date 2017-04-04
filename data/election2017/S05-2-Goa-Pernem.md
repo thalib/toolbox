@@ -1,0 +1,12 @@
+ 
+|Goa-Pernem|
+|Candidate|Party|Votes|
+|AJGAONKARMANOHARTRIMBAK|MaharashtrawadiGomantak|15745|
+|RAJENDRAARLEKAR|BharatiyaJanataParty|9715|
+|VIKESHRAMESHASSOTIKAR|IndianNationalCongress|1013|
+|SHIVANANDKRISHNAPILARNKAR|AamAadmiParty|308|
+|GOPALDASANANTARLEKAR|GoaVikasParty|180|
+|SANTOSHSHANKARMANDREKAR|NationalistCongressParty|124|
+|NITINMOHANCHOPDEKAR|BahujanMuktiParty|105|
+|DNYANESWARSITARAMVARKHANKAR|GoaPrajaParty|71|
+|NoneoftheAbove|NoneoftheAbove|469|

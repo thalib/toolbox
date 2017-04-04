@@ -1,0 +1,13 @@
+ 
+|Uttarakhand-Kaladhungi|
+|Candidate|Party|Votes|
+|BANSIDHARBHAGAT|BharatiyaJanataParty|45704|
+|PRAKASHJOSHI|IndianNationalCongress|25107|
+|MAHESHCHANDRA|Independent|20214|
+|HARENDRASINGHDARMWAL|Independent|4294|
+|VARUNPRATAPSINGHBHAKUNI|BahujanSamajParty|2384|
+|MAHENDRAKUMARCHAUDHARY|Independent|1097|
+|DR.SURESHDALAKOTI|UttarakhandKrantiDal|889|
+|SURENDRASINGHNIGALTIYA|UTTARAKHANDPARIVARTANPARTY|625|
+|SUMANLATA|Independent|367|
+|NoneoftheAbove|NoneoftheAbove|1119|
