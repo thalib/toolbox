@@ -1,0 +1,25 @@
+<opml version="1.0">
+	<head>
+		<title>MY Blog Subscription List</title>
+	</head>
+	<body>
+		<outline type="rss" version="RSS" title="Hackaday.com" text="Hackaday » Blog" xmlUrl="https://hackaday.com/blog/feed/" htmlUrl="https://hackaday.com"/>
+		<outline type="rss" version="RSS" title="PrestaShop" text="PrestaShop" xmlUrl="http://build.prestashop.com/feed.xml" htmlUrl="http://build.prestashop.com/"/>
+		<outline type="rss" version="RSS" title="Toptal" text="Toptal" xmlUrl="http://www.toptal.com/blog.rss" htmlUrl="https://www.toptal.com/blog"/>
+		<outline type="rss" version="RSS" title="Into Robotics" text="Into Robotics" xmlUrl="http://feeds.feedburner.com/IntoRobotics" htmlUrl="https://www.intorobotics.com"/>
+		<outline type="rss" version="RSS" title="Phoronix" text="Phoronix" xmlUrl="http://www.phoronix.com/rss.php" htmlUrl="http://www.phoronix.com/"/>
+		<outline type="rss" version="RSS" title="GAlert - robot" text="GAlert - robot" xmlUrl="https://www.google.com/alerts/feeds/00968969064652034130/15096193351582305478" htmlUrl="null"/>
+		<outline type="rss" version="RSS" title="GAlert - Raspberry Pi" text="GAlert - Raspberry Pi" xmlUrl="https://www.google.com/alerts/feeds/14745612040404482916/17947827320937949974" htmlUrl="null"/>
+		<outline type="rss" version="RSS" title="GAlert - iot" text="GAlert - iot" xmlUrl="https://www.google.com/alerts/feeds/14745612040404482916/796500704598581091" htmlUrl="null"/>
+		<outline type="rss" version="RSS" title="GAlert - robotics" text="GAlert - robotics" xmlUrl="https://www.google.com/alerts/feeds/00968969064652034130/17402081539073413972" htmlUrl="null"/>
+		<outline type="rss" version="RSS" title="GAlert - arduino" text="GAlert - arduino" xmlUrl="https://www.google.com/alerts/feeds/14745612040404482916/17947827320937949532" htmlUrl="null"/>
+		<outline type="rss" version="RSS" title="GAlert - 3dprinter" text="GAlert - 3dprinter" xmlUrl="https://www.google.com/alerts/feeds/14745612040404482916/7092293418145709924" htmlUrl="null"/>
+		<outline type="rss" version="RSS" title="GAlert - open source hardware" text="GAlert - open source hardware" xmlUrl="https://www.google.com/alerts/feeds/14745612040404482916/4107099634554884782" htmlUrl="null"/>
+		<outline type="rss" version="RSS" title="GAlert - openhardware" text="GAlert - openhardware" xmlUrl="https://www.google.com/alerts/feeds/14745612040404482916/11126067077826955593" htmlUrl="null"/>
+		<outline type="rss" version="RSS" title="GAlert - internet of things" text="GAlert - internet of things" xmlUrl="https://www.google.com/alerts/feeds/14745612040404482916/5276645521535822462" htmlUrl="null"/>
+		<outline type="rss" version="RSS" title="GAlert - 3dprinting" text="GAlert - 3dprinting" xmlUrl="https://www.google.com/alerts/feeds/14745612040404482916/17016192601059644875" htmlUrl="null"/>
+		<outline type="rss" version="RSS" title="GAlert - reprap" text="GAlert - reprap" xmlUrl="https://www.google.com/alerts/feeds/14745612040404482916/7614980972579009359" htmlUrl="null"/>
+    <outline type="rss" version="RSS" title="makezine.com" text="makezine.com" xmlUrl="http://makezine.com/feed/" htmlUrl="null"/>
+    <outline type="rss" version="RSS" title="Craftzine" text="Craftzine" xmlUrl="http://makezine.com/category/craft/feed/" htmlUrl="null"/>
+	</body>
+</opml>
